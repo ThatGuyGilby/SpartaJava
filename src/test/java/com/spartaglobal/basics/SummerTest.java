@@ -1,12 +1,13 @@
 package com.spartaglobal.basics;
 
+import com.spartaglobal.configtest.basics.Summer;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 public class SummerTest
 {
     @Test
-    public void testSumArrayNegative()
+    public void sumArrayNegative()
     {
         Summer summer = new Summer();
 
@@ -23,7 +24,7 @@ public class SummerTest
     }
 
     @Test
-    public void testSumArrayPositive()
+    public void sumArrayPositive()
     {
         Summer summer = new Summer();
 
@@ -40,7 +41,7 @@ public class SummerTest
     }
 
     @Test
-    public void testSumArrayZero()
+    public void sumArrayZero()
     {
         Summer summer = new Summer();
 

@@ -1,4 +1,4 @@
-package com.spartaglobal.basics;
+package com.spartaglobal.configtest.basics;
 
 public class Summer
 {
